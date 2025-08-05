@@ -1,4 +1,4 @@
-# Logging System
+# Zap Logging System
 
 This project is a high-performance, thread-safe logging system built in Go using the `zap` library. It features a single logger with multiple cores, controlled by an atomic boolean flag (`ActiveFlag`) for conditional logging. Logs are written to timestamped files in separate directories, with dynamic file switching handled in a thread-safe manner. The system is designed to be modular and extensible, making it easy to add new cores or integrate with external systems like Sentry.
 
