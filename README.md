@@ -27,25 +27,6 @@ This project is a high-performance, thread-safe logging system built in Go using
 - **Git**: For cloning the repository.
 - **Dependencies**: The `go.uber.org/zap` library.
 
-## Installation and Setup
-
-1. Clone the Repository
-
-```bash
-git clone https://github.com/alisahin10/logging-system
-cd logging-system
-```
-
-2. Install Dependencies
-```bash
-go mod tidy
-```
-
-3. Run the Application
-```bash
-go run main.go
-```
-
 ## Logging Behaviour
 The system logs messages in a 15-second cycle with the following behavior:
 
