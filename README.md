@@ -20,13 +20,6 @@ This project is a high-performance, thread-safe logging system built in Go using
 ## Project Structure
 <img width="824" height="265" alt="Screenshot 2025-08-05 at 21 20 51" src="https://github.com/user-attachments/assets/82d3250d-d6fc-4800-a268-5d788c0ff9cc" />
 
-
-## Requirements
-
-- **Go**: Version 1.16 or higher.
-- **Git**: For cloning the repository.
-- **Dependencies**: The `go.uber.org/zap` library.
-
 ## Logging Behaviour
 The system logs messages in a 15-second cycle with the following behavior:
 
